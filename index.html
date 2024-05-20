@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Code</title>
+    <link rel="stylesheet" href="style/prism.css">
+    <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/codeSection.css">
+    <link rel="stylesheet" href="style/preview.css">
+    <script src="https://kit.fontawesome.com/f865c48659.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main class="resizable">
+        <header>
+            <button class="file-name selected-file" id="html-file-btn">
+                <h2><i class="fa-brands fa-html5"></i> html</h2>
+            </button>
+    
+            <button class="file-name" id="css-file-btn">
+                <h2><i class="fa-brands fa-css3-alt"></i> css</h2>
+            </button>
+    
+            <button class="file-name" id="javascript-file-btn">
+                <h2><i class="fa-brands fa-js"></i> javascript</h2>
+            </button>
+        </header>
+
+
+        <section id="html" class="selected-file line-numbers">
+            <pre class="code-output"><code id="html-code-out" class="language-html"></code></pre>
+            <textarea id="html-code-in" class="code-input" spellcheck="false"></textarea>
+        </section>
+        
+        <section id="css" class="line-numbers">
+            <pre class="code-output"><code id="css-code-out" class="language-css"></code></pre>
+            <textarea id="css-code-in" class="code-input" spellcheck="false"></textarea>
+        </section>
+        
+        <section id="javascript" class="line-numbers">
+            <pre class="code-output"><code id="js-code-out" class="language-js"></code></pre>
+            <textarea id="js-code-in" class="code-input" spellcheck="false"></textarea>
+        </section>
+        <div class="resizer"></div>
+    </main>
+    <aside>
+        <header>
+            <div class="file-name">
+                <h2><i class="fa-solid fa-tower-broadcast"></i> Preview</h2>
+            </div>
+        </header>
+        <div id="preview"></div>
+    </aside>
+</body>
+<script src="script/prism.js"></script>
+<script src="script/resizeWindow.js"></script>
+<script src="script/selectFile.js"></script>
+<script src="script/File.js"></script>
+<script src="script/Preview.js"></script>
+</html>

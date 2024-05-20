@@ -1,0 +1,18 @@
+aside {
+    flex-grow: 1;
+}
+
+aside .file-name {
+    border-left: none;
+    background: var(--selected-color);
+}
+
+#preview {
+    width: 100%;
+    height: calc(100% - 32px);
+    background: #fff;
+}
+
+.fa-tower-broadcast {
+    color: rgb(106, 33, 202);
+}

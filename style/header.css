@@ -1,0 +1,39 @@
+header {
+    display: flex;
+    width: 100%;
+    background: var(--dark-gray);
+}
+
+.file-name {
+    background: var(--dark-gray);
+    border: none;
+    border: 1px solid #000;
+    border-top: none;
+    border-bottom: 1px solid var(--light-gray);
+    color: var(--text-color);
+    padding: 5px;
+    font-size: 11px;
+    width: 150px;
+    height: 32px;
+    text-align: left;
+}
+
+header .selected-file {
+    background: var(--selected-color);
+}
+
+.file-name h2 {
+    font-weight:normal;
+}
+
+.fa-html5 {
+    color: #e44d26;
+}
+
+.fa-css3-alt {
+    color: #42a5f5;
+}
+
+.fa-js {
+    color: #ffca28;
+}
